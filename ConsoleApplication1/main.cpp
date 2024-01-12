@@ -9,6 +9,7 @@ int main() {
         
         //electricity.displayInfo();
         cout << electricity;
+        cout << "кирилл + ваня!";
     }
     catch (const exception& e) {
         cerr << "Исключение: " << e.what() << endl;
